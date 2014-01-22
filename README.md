@@ -1,6 +1,6 @@
 arduino-templates-gaf
 =====================
-arduino-templates-gaf is a set of tools for working with arduinos, arduino variants and their shields with geda/gaf and PCB for geda.  
+arduino-templates-gaf is a collection of resources schematics, and footprints for working with arduinos, arduino variants and their shields with geda/gaf and PCB for geda.  
 
 Let's see where this goes and start with a shield for the the Arduino Mega 2560 
 
