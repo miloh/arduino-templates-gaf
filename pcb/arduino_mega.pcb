@@ -9,7 +9,7 @@ Grid[10.000000 0.70mil 0.40mil 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[10.00mil 10.00mil 10.00mil 10.00mil 15.00mil 10.00mil]
-Flags("uniquename,clearnew,snappin")
+Flags("uniquename,clearnew")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,10.00mil,35.00mil,20.00mil,10.00mil:Power,15.00mil,48.00mil,35.00mil,10.00mil:Fat,45.00mil,43.00mil,35.00mil,20.00mil:Skinny,5.00mil,24.02mil,11.81mil,20.00mil"]
 
@@ -871,42 +871,12 @@ Via[2064.70mil 371.40mil 60.00mil 30.00mil 66.00mil 38.00mil "4" ""]
 Via[1964.70mil 371.40mil 60.00mil 30.00mil 66.00mil 38.00mil "3" ""]
 Via[1864.70mil 371.40mil 60.00mil 30.00mil 66.00mil 38.00mil "2" ""]
 Via[1764.70mil 371.40mil 60.00mil 30.00mil 66.00mil 38.00mil "1" ""]
-
-Element["" "350_Common-Mounting-Hole__130_mil_drill.fp" "" "Mount 1" 111.1098mm 371.40mil -56.20mil -184.40mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 140.00mil 20.00mil 146.00mil 130.00mil "1" "1" ""]
-
-	)
-
-Element["" "350_Common-Mounting-Hole__130_mil_drill.fp" "" "Mount 4" 1424.40mil 371.40mil -333.50mil -74.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 140.00mil 20.00mil 146.00mil 130.00mil "1" "1" ""]
-
-	)
-
-Element["" "350_Common-Mounting-Hole__130_mil_drill.fp" "" "Mount 3" 1374.50mil 2271.40mil 120.70mil -64.90mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 140.00mil 20.00mil 146.00mil 130.00mil "1" "1" ""]
-
-	)
-
-Element["" "350_Common-Mounting-Hole__130_mil_drill.fp" "" "Inner Mount B" 3424.30mil 2071.50mil -132.30mil -96.60mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 140.00mil 20.00mil 146.00mil 130.00mil "1" "1" ""]
-
-	)
-
-Element["" "350_Common-Mounting-Hole__130_mil_drill.fp" "" "Inner Mount A" 3424.50mil 971.70mil -3.00mil -140.30mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 140.00mil 20.00mil 146.00mil 130.00mil "1" "1" ""]
-
-	)
-
-Element["" "350_Common-Mounting-Hole__130_mil_drill.fp" "" "Mount 2" 4624.30mil 2271.40mil -106.60mil -20.80mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 140.00mil 20.00mil 146.00mil 130.00mil "1" "1" ""]
-
-	)
+Via[1374.50mil 2271.40mil 125.00mil 22.00mil 0.0000 20.00mil "" ""]
+Via[3424.30mil 2071.50mil 125.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[4624.30mil 2271.40mil 125.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[111.1098mm 371.40mil 125.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[3424.50mil 971.70mil 125.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1424.40mil 371.40mil 125.00mil 20.00mil 0.0000 20.00mil "" ""]
 Layer(1 "top")
 (
 )
