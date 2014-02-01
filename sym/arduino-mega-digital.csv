@@ -13,8 +13,8 @@ wordswap	no
 rotate_labels	yes					
 sort_labels						
 generate_pinseq	yes					
-sym_width	750					
-pinwidthvertical	1400					
+sym_width	7500					
+pinwidthvertical	1250					
 pinwidthhorizontal	400					
 						
 [geda_attr]						
