@@ -37,9 +37,9 @@ use-license
 #slotdef	2:					
 #slotdef	3:					
 #slotdef	4:					
-#comment	not possible w/o mega2.pdf by pighixxx.com					
+#comment	great props to mega2.pdf by pighixxx.com					
 #comment	note due to possible bug in tragesym, using pinsequence below to match the arduino mega physical layout wasn't working,  so user who is generating part  must reverse the part (in gschem ctrl-a select all, press 'E' press 'I' ) the part after tragesym generation					
-#comment	todos:  properly set up top bottom so pins match rows.					
+#comment						
 						
 [pins]						
 # tabseparated list of pin descriptions						
