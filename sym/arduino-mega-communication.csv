@@ -22,13 +22,13 @@ pinwidthhorizontal	250
 # if you have a device with slots, you'll have to use slot= and slotdef=						
 # use comment= if there are special information you want to add						
 version	20060113 1					
-name	Arduino-mega-analog in					
-device	Arduino-mega-analog in					
+name	Arduino-mega-communication					
+device	Arduino-mega-communication					
 refdes	U?					
 footprint						
 description						
 documentation						
-author						
+author	Ronald Miloh Alexnadre					
 numslots	0					
 dist-license						
 use-license						
@@ -55,19 +55,13 @@ use-license
 #	"if you want to write a ""\"" use ""\\"" as escape sequence"					
 #						
 #pinnr	seq	type	style	posit.	net	label
-1		io	line	r	1	Analog pin 0
-2		io	line	r	2	Analog pin 1
-3		io	line	r	3	Analog pin 2
-4		io	line	r	4	Analog pin 3
-5		io	line	r	5	Analog pin 4
-6		io	line	r	6	Analog pin 5
-7		io	line	r	7	Analog pin 6
-8		io	line	r	8	Analog pin 7
-9		io	line	r	9	Analog pin 8
-10		io	line	r	10	Analog pin 9
-11		io	line	r	11	Analog pin 10
-12		io	line	r	12	Analog pin 11
-13		io	line	r	13	Analog pin 12
-14		io	line	r	14	Analog pin 13
-15		io	line	r	15	Analog pin 14
-16		io	line	r	16	Analog pin 15
+3	1	io	line	l	PE1 ( TXD0 )	Digital pin 1 (TX0)
+2	2	io	line	l	PE0 ( RXD0/PCINT8 )	Digital pin 0 (RX0)
+64	3	io	line	l	PJ1 ( TXD3/PCINT10 )	Digital pin 14 (TX3)
+63	4	io	line	l	PJ0 ( RXD3/PCINT9 )	Digital pin 15 (RX3)
+13	5	io	line	l	PH1 ( TXD2 )	Digital pin 16 (TX2)
+12	6	io	line	l	PH0 ( RXD2 )	Digital pin 17 (RX2)
+46	7	io	line	l	PD3 ( TXD1/INT3 )	Digital pin 18 (TX1)
+45	8	io	line	l	PD2 ( RXDI/INT2 )	Digital pin 19 (RX1)
+44	9	io	line	l	PD1 ( SDA/INT1 )	Digital pin 20 (SDA)
+43	10	io	line	l	PD0 ( SCL/INT0 )	Digital pin 21 (SCL)

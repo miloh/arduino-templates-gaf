@@ -22,13 +22,13 @@ pinwidthhorizontal	250
 # if you have a device with slots, you'll have to use slot= and slotdef=						
 # use comment= if there are special information you want to add						
 version	20060113 1					
-name	Arduino-mega-analog in					
-device	Arduino-mega-analog in					
+name	Arduino-mega-pwm					
+device	Arduino-mega-pwm					
 refdes	U?					
 footprint						
 description						
 documentation						
-author						
+author	R. Miloh Alexander					
 numslots	0					
 dist-license						
 use-license						
@@ -55,19 +55,19 @@ use-license
 #	"if you want to write a ""\"" use ""\\"" as escape sequence"					
 #						
 #pinnr	seq	type	style	posit.	net	label
-1		io	line	r	1	Analog pin 0
-2		io	line	r	2	Analog pin 1
-3		io	line	r	3	Analog pin 2
-4		io	line	r	4	Analog pin 3
-5		io	line	r	5	Analog pin 4
-6		io	line	r	6	Analog pin 5
-7		io	line	r	7	Analog pin 6
-8		io	line	r	8	Analog pin 7
-9		io	line	r	9	Analog pin 8
-10		io	line	r	10	Analog pin 9
-11		io	line	r	11	Analog pin 10
-12		io	line	r	12	Analog pin 11
-13		io	line	r	13	Analog pin 12
-14		io	line	r	14	Analog pin 13
-15		io	line	r	15	Analog pin 14
-16		io	line	r	16	Analog pin 15
+43	16	oc	line	l	SCL	SCL
+44	15	out	line	l	SDA	SDA
+98	14	pwr	line	l	AREF	AREF
+99	13	pwr	line	l	GND	GND
+26	12	io	line	l	Digital pin 13 (PWM)	Digital pin 13 (PWM)
+25	11	io	line	l	Digital pin 12 (PWM)	Digital pin 12 (PWM)
+24	10	io	line	l	Digital pin 11 (PWM)	Digital pin 11 (PWM)
+23	9	io	line	l	Digital pin 10 (PWM)	Digital pin 10 (PWM)
+18	8	io	line	l	Digital pin 9 (PWM)	Digital pin 9 (PWM)
+17	7	io	line	l	Digital pin 8 (PWM)	Digital pin 8 (PWM)
+16	6	io	line	l	Digital pin 7 (PWM)	Digital pin 7 (PWM)
+15	5	io	line	l	Digital pin 6 (PWM)	Digital pin 6 (PWM)
+5	4	io	line	l	Digital pin 5 (PWM)	Digital pin 5 (PWM)
+4	3	io	line	l	Digital pin 4 (PWM)	Digital pin 4 (PWM)
+3	2	io	line	l	Digital pin 3 (PWM)	Digital pin 3 (PWM)
+2	1	io	line	l	Digital pin 2 (PWM)	Digital pin 2 (PWM)

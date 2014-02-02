@@ -14,8 +14,8 @@ rotate_labels	yes
 sort_labels						
 generate_pinseq	yes					
 sym_width	7500					
-pinwidthvertical	1250					
-pinwidthhorizontal	400					
+pinwidthvertical	1200					
+pinwidthhorizontal	375					
 						
 [geda_attr]						
 # name will be printed in the top of the symbol						
